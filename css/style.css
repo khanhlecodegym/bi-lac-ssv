@@ -488,6 +488,7 @@ ol {
 
 .hs-item .hs-text {
   text-align: center;
+  background: rgba(21, 22, 24, 0.5);
 }
 
 .hs-item .hs-text h4 {
