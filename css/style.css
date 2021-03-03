@@ -348,11 +348,11 @@ ol {
 }
 
 .header__nav {
-  background: #dd1515;
+  background: #ffffff;
 }
 
 .header__nav .logo {
-  padding: 30px 0;
+  padding: 5px 0;
 }
 
 .header__nav .logo a {
@@ -428,7 +428,7 @@ ol {
 
 .header__nav .nav-menu .main-menu li a {
   font-size: 15px;
-  color: #ffffff;
+  color: #000;
   font-weight: 500;
   display: inline-block;
   text-transform: uppercase;
@@ -442,7 +442,7 @@ ol {
   top: 65px;
   height: 2px;
   width: 100%;
-  background: #ffffff;
+  background: #000;
   content: "";
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
