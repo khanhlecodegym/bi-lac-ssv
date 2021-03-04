@@ -489,6 +489,7 @@ ol {
 .hs-item .hs-text {
   text-align: center;
   background: rgba(21, 22, 24, 0.5);
+  padding: 30px;
 }
 
 .hs-item .hs-text h4 {
@@ -603,6 +604,7 @@ ol {
 .ms-content .mc-table table tr td.left-team img {
   float: left;
   margin-right: 10px;
+  height: 100%;
 }
 
 .ms-content .mc-table table tr td.left-team h6 {

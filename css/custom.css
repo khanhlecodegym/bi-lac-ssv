@@ -1,0 +1,61 @@
+.bg-breadcrumb {
+  background: rgba(21, 22, 24, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+/*******************
+Feature 41
+*******************/
+.wrap-feature41-box .f41-tab {
+    display: block;
+}
+
+.wrap-feature41-box .f41-tab li a {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 13px;
+}
+
+.wrap-feature41-box .f41-tab li a .t-icon {
+    margin-right: 25px;
+    color: #8d97ad;
+}
+
+.wrap-feature41-box .f41-tab li a h5 {
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.wrap-feature41-box .f41-tab li a h6 {
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.wrap-feature41-box .f41-tab li a.active, .wrap-feature41-box .f41-tab li a:hover {
+    background: #ffffff;
+    box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.3);
+    border-radius: 7px;
+}
+
+.wrap-feature41-box .f41-tab li a.active .t-icon, .wrap-feature41-box .f41-tab li a:hover .t-icon {
+    background: #00b4ff;
+    background: -webkit-linear-gradient(legacy-direction(to right), #00b4ff 0%, #00b4ff 100%);
+    background: linear-gradient(to right, #00b4ff 0%, #00b4ff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+}
+
+.st-title{
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 500;
+    background: #dd1515;
+    text-align: center;
+    padding: 12px 0 14px;
+    margin-bottom: 30px;
+}
