@@ -588,8 +588,8 @@ ol {
 }
 
 .ms-content .mc-table table tr td img {
-  height: 30px;
-  width: 50px;
+  height: 60px;
+  width: 100px;
 }
 
 .ms-content .mc-table table tr td h6 {
@@ -602,7 +602,7 @@ ol {
 }
 
 .ms-content .mc-table table tr td.left-team img {
-  float: left;
+  /* float: left; */
   margin-right: 10px;
   /* height: 100%; */
 }
@@ -618,12 +618,12 @@ ol {
 }
 
 .ms-content .mc-table table tr td.right-team img {
-  float: right;
+  /* float: right; */
   margin-left: 10px;
 }
 
 .ms-content .mc-table table tr td.right-team h6 {
-  float: right;
+  /* float: right; */
   line-height: 30px;
 }
 
