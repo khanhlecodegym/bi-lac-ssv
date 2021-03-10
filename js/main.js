@@ -100,5 +100,4 @@
     $('.video-popup').magnificPopup({
         type: 'iframe'
     });
-
 })(jQuery);
