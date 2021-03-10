@@ -73,16 +73,20 @@ Feature 41
 }
 
 /* Carousel */
-#carousel .carousel-item.boat {
-    background-image: url("https://picsum.photos/1200/600/?image=1083");
+#carousel .carousel-item.item-1 {
+    background-image: url("/img/blog-1.png");
   }
   
-  #carousel .carousel-item.sea {
-    background-image: url("https://picsum.photos/1200/600/?image=1050");
+  #carousel .carousel-item.item-2 {
+    background-image: url("/img/blog-2.png");
   }
   
-  #carousel .carousel-item.river {
-    background-image: url("https://picsum.photos/1200/600/?image=1015");
+  #carousel .carousel-item.item-3 {
+    background-image: url("/img/blog-3.png");
+  }
+
+  #carousel .carousel-item.item-4 {
+    background-image: url("/img/blog-4.png");
   }
   
   #carousel .carousel-item {
@@ -122,3 +126,11 @@ Feature 41
     animation-delay: 2.4s;
   }
 
+.caption>h2{
+  color: whitesmoke;
+  font-weight: 700;
+}
+.caption>p{
+  color: whitesmoke;
+  font-weight: 400;
+}
