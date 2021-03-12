@@ -1,0 +1,23 @@
+/* Show less */
+.result > .mc-table {
+  display: none;
+}
+
+.result > a,
+.result > a:visited {
+  text-decoration: none;
+  display: block;
+  margin: 10px 0;
+}
+
+.result > a:hover {
+  text-decoration: none;
+}
+
+#loadLess {
+  display: none;
+}
+
+#loadMore{
+    display: inline;
+}
