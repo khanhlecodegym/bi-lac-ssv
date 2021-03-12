@@ -100,4 +100,36 @@
     $('.video-popup').magnificPopup({
         type: 'iframe'
     });
+
+    $(function() {
+        $(".mc-result").slice(0, 4).show();
+        $("#loadMore").on('click', function(e) {
+          e.preventDefault();
+          $(".mc-result:hidden").slice(0, 4).slideDown();
+          if ($(".mc-result:hidden").length == 0) {
+            $("#loadLess").fadeIn('slow');
+            $("#loadMore").hide();
+
+        }
+        let desiredHeight = $(window).height();
+
+          $('html,body').animate({
+            scrollTop: $(this).offset().top + desiredHeight
+          }, 1000);
+        });
+      
+        $("#loadLess").on('click', function(e) {
+          e.preventDefault();
+          $('.mc-result:not(:lt(4))').fadeOut();
+          $("#loadMore").fadeIn('slow');
+          $("#loadLess").hide();
+      
+          let desiredHeight = $(window).height();
+      
+          $('html,body').animate({
+            scrollTop: $(this).offset().top + desiredHeight
+          }, 1300);
+        });
+      
+      });
 })(jQuery);

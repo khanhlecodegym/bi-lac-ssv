@@ -48,6 +48,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="/css/showLess.css" type="text/css" />
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.ico" />
@@ -181,9 +182,9 @@
             </div>
           </div>
           <div class="col-lg-6">
-            <div class="ms-content">
+            <div class="ms-content result">
               <h4>Kết Quả Trận Đấu</h4>
-              <div class="mc-table">
+              <div class="mc-table mc-result">
                 <table>
                   <tbody>
                     <tr>
@@ -205,7 +206,7 @@
                 </table>
               </div>
 
-              <div class="mc-table">
+              <div class="mc-table mc-result">
                 <table>
                   <tbody>
                     <tr>
@@ -227,7 +228,7 @@
                 </table>
               </div>
 
-              <div class="mc-table">
+              <div class="mc-table mc-result">
                 <table>
                   <tbody>
                     <tr>
@@ -249,7 +250,7 @@
                 </table>
               </div>
 
-              <div class="mc-table">
+              <div class="mc-table mc-result">
                 <table>
                   <tbody>
                     <tr>
@@ -271,7 +272,7 @@
                 </table>
               </div>
 
-              <div class="mc-table">
+              <div class="mc-table mc-result">
                 <table>
                   <tbody>
                     <tr>
@@ -293,7 +294,7 @@
                 </table>
               </div>
 
-              <div class="mc-table">
+              <div class="mc-table mc-result">
                 <table>
                   <tbody>
                     <tr>
@@ -315,7 +316,7 @@
                 </table>
               </div>
 
-              <div class="mc-table">
+              <div class="mc-table mc-result">
                 <table>
                   <tbody>
                     <tr>
@@ -337,7 +338,7 @@
                 </table>
               </div>
 
-              <div class="mc-table">
+              <div class="mc-table mc-result">
                 <table>
                   <tbody>
                     <tr>
@@ -358,6 +359,8 @@
                   </tbody>
                 </table>
               </div>
+              <a href="#" class="btn btn-primary" type="button" id="loadMore">Load More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+              <a href="#" class="btn btn-primary" type="button" id="loadLess">Load Less <i class="fa fa-angle-double-left" aria-hidden="true"></i></a>
           </div>
         </div>
       </div>
@@ -428,7 +431,7 @@
                     <td>1</td>
                   </tr>
                   <tr>
-                    <td>5</td>
+                    <td>mx-5</td>
                     <td class="team-name">
                       <img src="img/flag/solo.png" alt="" />
                       <span>Solo LeveLing</span>
