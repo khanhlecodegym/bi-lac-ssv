@@ -88,6 +88,12 @@ Feature 41
   #carousel .carousel-item.item-4 {
     background-image: url("/img/blog-4.png");
   }
+  #carousel .carousel-item.item-5 {
+    background-image: url("/img/blog-5.png");
+  }
+  #carousel .carousel-item.item-6 {
+    background-image: url("/img/blog-6.png");
+  }
   
   #carousel .carousel-item {
     height: 100vh;
