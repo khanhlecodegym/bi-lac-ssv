@@ -1,7 +1,8 @@
 (function() {
     var $closeBtn, $heading, $loadBtn, $loading, $players, $playersAway, $playersHome, $stage, $subHeading, $switchBtn, $switcher, $team, $teamListHome, $terrain, $world, ASSET_URL, anim, data, dom, events, init, pos, scenes, state;
   
-    ASSET_URL = 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/215059/';
+    //ASSET_URL = 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/215059/';
+    ASSET_URL = '/img/soccer/';
   
     $stage = null;
   
@@ -38,7 +39,7 @@
         home: [
           {
             name: 'Mizu',
-            asset: 'bm-pizarro.jpg',
+            asset: 'mizu.png',
             origin: 'Peru',
             height: '1.84m',
             shirt: '14',
@@ -88,22 +89,22 @@
         //     x: 0,
         //     y: 100
         //   },
-        //   {
-        //     name: 'Martinez',
-        //     asset: 'bm-martinez.jpg',
-        //     origin: 'Spain',
-        //     height: '1.90m',
-        //     shirt: '8',
-        //     pos: 'Midfield',
-        //     dob: '28',
-        //     goals: 0,
-        //     games: 2,
-        //     x: -150,
-        //     y: 50
-        //   },
+          {
+            name: 'ThanhHLP',
+            asset: 'thanhhlp.png',
+            origin: 'Huế',
+            height: '1.85m',
+            shirt: '8',
+            pos: 'Fan',
+            dob: '22',
+            goals: 0,
+            games: 2,
+            x: -350,
+            y: 50
+          },
           {
             name: 'HoangPT',
-            asset: 'bm-alaba.jpg',
+            asset: 'hoangpt.png',
             origin: 'Austria',
             height: '1.80m',
             shirt: '27',
@@ -116,7 +117,7 @@
           },
           {
             name: 'HieuLH',
-            asset: 'bm-lahm.jpg',
+            asset: 'hieulh.png',
             origin: 'Germany',
             height: '1.70',
             shirt: '21',
@@ -129,7 +130,7 @@
           },
           {
             name: 'QuangPGD',
-            asset: 'bm-benatia.jpg',
+            asset: 'quangpgd.png',
             origin: 'France',
             height: '1.87m',
             shirt: '5',
@@ -142,7 +143,7 @@
           },
           {
             name: 'NhanTT',
-            asset: 'bm-dante.jpg',
+            asset: 'nhantt.png',
             origin: 'Brazil',
             height: '1.87m',
             shirt: '4',
@@ -155,7 +156,7 @@
           },
           {
             name: 'NhanVP',
-            asset: 'bm-neuer.jpg',
+            asset: 'nhanvp.png',
             origin: 'Germany',
             height: '1.93m',
             shirt: '1',
@@ -170,7 +171,7 @@
         away: [
           {
             name: 'HuyND',
-            asset: 'rm-benzema.jpg',
+            asset: 'huynd.png',
             origin: 'France',
             height: '1.87m',
             shirt: '9',
@@ -183,7 +184,7 @@
           },
           {
             name: 'LieuND',
-            asset: 'rm-bale.jpg',
+            asset: 'lieund.png',
             origin: 'Wales',
             height: '1.83m',
             shirt: '11',
@@ -196,7 +197,7 @@
           },
           {
             name: 'SinhNT',
-            asset: 'rm-carvajal.jpg',
+            asset: 'sinhnt.png',
             origin: 'Spain',
             height: '1.70m',
             shirt: '15',
@@ -209,7 +210,7 @@
           },
           {
             name: 'HoangLB',
-            asset: 'rm-silva.jpg',
+            asset: 'hoanglb.png',
             origin: 'Brazil',
             height: '1.87m',
             shirt: '16',
@@ -220,19 +221,19 @@
             x: 0,
             y: 100
           },
-        //   {
-        //     name: 'Kroos',
-        //     asset: 'rm-kroos.jpg',
-        //     origin: 'Germany',
-        //     height: '1.82',
-        //     shirt: '8',
-        //     pos: 'Midfield',
-        //     dob: '25',
-        //     goals: 0,
-        //     games: 2,
-        //     x: -150,
-        //     y: 50
-        //   },
+          {
+            name: 'YenNTN',
+            asset: 'yenntn.png',
+            origin: 'SSV',
+            height: '1.82',
+            shirt: '99',
+            pos: 'Fan',
+            dob: '25',
+            goals: 0,
+            games: 2,
+            x: -350,
+            y: 50
+          },
         //   {
         //     name: 'Modric',
         //     asset: 'rm-modric.jpg',
@@ -287,7 +288,7 @@
         //   },
           {
             name: 'PhucLT',
-            asset: 'rm-casillas.jpg',
+            asset: 'phuclt.png',
             origin: 'Spain',
             height: '1.85m',
             shirt: '1',
@@ -516,6 +517,7 @@
         $terrain.velocity({
           opacity: 0.66
         }, 600);
+        $('.js-switcher').hide();
         return this.showPlayerCard($el, 600, 600);
       },
       unfocusPlayer: function() {
@@ -532,6 +534,7 @@
         $terrain.velocity({
           opacity: 1
         }, 600);
+        $('.js-switcher').show();
         return this.hidePlayerCard($el, 600, 600);
       },
       hidePlayerCard: function($el, dur, delay) {
