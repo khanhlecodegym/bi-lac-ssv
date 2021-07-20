@@ -1,8 +1,6 @@
-let arrayNames = ["PhucLT", "NhânVp", "HieuLD", "KhánhLQ", "NhânVP", "LiệuND", "HoangLB","MiZu", "Yến", "ThanhLP"];
-
+let arrayNames = ["PHÚC LÁO TOÉT", "NHÂN VĂN PHÒNG", "HIỆU CHIM MỒI", "A KHÁNH ÁP-TÔ-MÁT", "QUANG PHÓ GIÁM ĐỐC", "LIỆU LEADER", "HOÀNG LGBT","MIZU CHAMPION", "YẾN COM TƠ ", "THANH KHÓ CHỊU"];
 
 var i = 0;
-
 
 function randomTeam(arrayNames, i)
 {
@@ -13,7 +11,6 @@ function randomTeam(arrayNames, i)
     element.classList.add("loader");
     setTimeout(() => {
         let random = Math.floor(Math.random() * arrayNames.length);
-        // console.log(arrayNames[random]);
         if(i%2 ==0){
             $('#dataAppen1').append(`
                 <tr>
@@ -36,17 +33,16 @@ function randomTeam(arrayNames, i)
             `);
         }
 
-        // document.getElementById('localA'+ i).value = arrayNames[random];
         i++;
         arrayNames = arrayNames.filter(item => item !== arrayNames[random]);
 
-        // console.log(arrayNames);
         if(arrayNames.length == 0){
             element.classList.remove("loader");
+            element.innerHTML = 'PHẦN MỀM SỬ DỤNG TRÍ TUỆ NHÂN TẠO 2.0 - KHÔNG TIẾP NHẬN Ý KIẾN';
+            element.classList.add("myload");
             return false;
         }
         return randomTeam(arrayNames,i);
-    }, 3000);
-
+    }, 1000);
 
 }
