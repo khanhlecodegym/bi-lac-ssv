@@ -1,4 +1,4 @@
-let arrayNames = ["PHÚC LÁO TOÉT", "NHÂN VĂN PHÒNG", "HIỆU CHIM MỒI", "A KHÁNH ÁP-TÔ-MÁT", "QUANG PHÓ GIÁM ĐỐC", "LIỆU LEADER", "HOÀNG LGBT","MIZU CHAMPION", "YẾN COM TƠ ", "THANH KHÓ CHỊU"];
+let arrayNames = ["PHÚC LÁO TOÉT", "NHÂN VĂN PHÒNG", "HIỆU CHIM MỒI", "A KHÁNH ÁP-TÔ-MÁT", "QUANG PHÓ GIÁM ĐỐC", "LIỆU STORY", "HOÀNG LEE","MIZU CHAMPION", "YẾN COM TƠ ", "THANH KHÓ CHỊU"];
 
 var i = 0;
 
