@@ -43,6 +43,6 @@ function randomTeam(arrayNames, i)
             return false;
         }
         return randomTeam(arrayNames,i);
-    }, 2500);
+    }, 3500);
 
 }
