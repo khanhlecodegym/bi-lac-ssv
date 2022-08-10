@@ -103,9 +103,9 @@
             y: 50
           },
           {
-            name: 'HoangPT',
-            asset: 'hoangpt.png',
-            origin: 'Austria',
+            name: 'KhanhLQ',
+            asset: 'khanhlq.png',
+            origin: 'SSV',
             height: '1.80m',
             shirt: '27',
             pos: 'Defence',
@@ -166,34 +166,32 @@
             games: 48,
             x: 0,
             y: 410
-          }
-        ],
-        away: [
-          {
-            name: 'HuyND',
-            asset: 'huynd.png',
-            origin: 'France',
-            height: '1.87m',
-            shirt: '9',
-            pos: 'Forward',
-            dob: '36',
-            goals: 1,
-            games: 16,
-            x: 110,
-            y: -190
           },
           {
-            name: 'LieuND',
-            asset: 'lieund.png',
-            origin: 'Wales',
-            height: '1.83m',
-            shirt: '11',
-            pos: 'Midfield',
-            dob: '26',
-            goals: 19,
-            games: 30,
-            x: -110,
-            y: -190
+            name: 'PhucLT',
+            asset: 'phuclt.png',
+            origin: 'Spain',
+            height: '1.85m',
+            shirt: '1',
+            pos: 'Goalie',
+            dob: '34',
+            goals: 0,
+            games: 48,
+            x: 0,
+            y: 150
+          },
+          {
+            name: 'HoangLB',
+            asset: 'hoanglb.png',
+            origin: 'SSV',
+            height: '1.85m',
+            shirt: '1',
+            pos: 'Goalie',
+            dob: '34',
+            goals: 0,
+            games: 48,
+            x: -100,
+            y: -100
           },
           {
             name: 'SinhNT',
@@ -205,21 +203,8 @@
             dob: '32',
             goals: 9,
             games: 22,
-            x: 150,
-            y: 50
-          },
-          {
-            name: 'HoangLB',
-            asset: 'hoanglb.png',
-            origin: 'Brazil',
-            height: '1.87m',
-            shirt: '16',
-            pos: 'Forward',
-            dob: '22',
-            goals: 21,
-            games: 3,
             x: 0,
-            y: 100
+            y: 290
           },
           {
             name: 'YenNTN',
@@ -232,8 +217,153 @@
             goals: 0,
             games: 2,
             x: -350,
-            y: 50
+            y: 200
           },
+          {
+            name: 'LieuND',
+            asset: 'lieund.png',
+            origin: 'Wales',
+            height: '1.83m',
+            shirt: '11',
+            pos: 'Midfield',
+            dob: '26',
+            goals: 19,
+            games: 30,
+            x: -250,
+            y: -190
+          },
+          {
+            name: 'ThuyNT',
+            asset: 'thuynt.png',
+            origin: 'Wales',
+            height: '1.83m',
+            shirt: '11',
+            pos: 'Midfield',
+            dob: '26',
+            goals: 19,
+            games: 30,
+            x: -350,
+            y: -100
+          },
+          {
+            name: 'TrungNBN',
+            asset: 'trungnbn.png',
+            origin: 'Wales',
+            height: '1.83m',
+            shirt: '11',
+            pos: 'Midfield',
+            dob: '26',
+            goals: 19,
+            games: 30,
+            x: 250,
+            y: -100
+          },
+          {
+            name: 'ThangPV',
+            asset: 'thangpv.png',
+            origin: 'Wales',
+            height: '1.83m',
+            shirt: '11',
+            pos: 'Midfield',
+            dob: '26',
+            goals: 19,
+            games: 30,
+            x: 150,
+            y: -60
+          },
+          {
+            name: 'TrungNBN',
+            asset: 'trungnbn.png',
+            origin: 'Wales',
+            height: '1.83m',
+            shirt: '11',
+            pos: 'Midfield',
+            dob: '26',
+            goals: 19,
+            games: 30,
+            x: 0,
+            y: -80
+          },
+          {
+            name: 'ThanhND',
+            asset: 'thanhnd.png',
+            origin: 'Wales',
+            height: '1.83m',
+            shirt: '11',
+            pos: 'Midfield',
+            dob: '26',
+            goals: 19,
+            games: 30,
+            x: -120,
+            y: 80
+          },
+        ],
+        away: [
+          // {
+          //   name: 'HuyND',
+          //   asset: 'huynd.png',
+          //   origin: 'France',
+          //   height: '1.87m',
+          //   shirt: '9',
+          //   pos: 'Forward',
+          //   dob: '36',
+          //   goals: 1,
+          //   games: 16,
+          //   x: 110,
+          //   y: -190
+          // },
+          // {
+          //   name: 'LieuND',
+          //   asset: 'lieund.png',
+          //   origin: 'Wales',
+          //   height: '1.83m',
+          //   shirt: '11',
+          //   pos: 'Midfield',
+          //   dob: '26',
+          //   goals: 19,
+          //   games: 30,
+          //   x: -110,
+          //   y: -190
+          // },
+          // {
+          //   name: 'SinhNT',
+          //   asset: 'sinhnt.png',
+          //   origin: 'Spain',
+          //   height: '1.70m',
+          //   shirt: '15',
+          //   pos: 'Defender',
+          //   dob: '32',
+          //   goals: 9,
+          //   games: 22,
+          //   x: 150,
+          //   y: 50
+          // },
+          // {
+          //   name: 'HoangLB',
+          //   asset: 'hoanglb.png',
+          //   origin: 'Brazil',
+          //   height: '1.87m',
+          //   shirt: '16',
+          //   pos: 'Forward',
+          //   dob: '22',
+          //   goals: 21,
+          //   games: 3,
+          //   x: 0,
+          //   y: 100
+          // },
+          // {
+          //   name: 'YenNTN',
+          //   asset: 'yenntn.png',
+          //   origin: 'SSV',
+          //   height: '1.82',
+          //   shirt: '99',
+          //   pos: 'Fan',
+          //   dob: '25',
+          //   goals: 0,
+          //   games: 2,
+          //   x: -350,
+          //   y: 50
+          // },
         //   {
         //     name: 'Modric',
         //     asset: 'rm-modric.jpg',
@@ -286,19 +416,19 @@
         //     x: -100,
         //     y: 300
         //   },
-          {
-            name: 'PhucLT',
-            asset: 'phuclt.png',
-            origin: 'Spain',
-            height: '1.85m',
-            shirt: '1',
-            pos: 'Goalie',
-            dob: '34',
-            goals: 0,
-            games: 48,
-            x: 0,
-            y: 410
-          }
+          // {
+          //   name: 'PhucLT',
+          //   asset: 'phuclt.png',
+          //   origin: 'Spain',
+          //   height: '1.85m',
+          //   shirt: '1',
+          //   pos: 'Goalie',
+          //   dob: '34',
+          //   goals: 0,
+          //   games: 48,
+          //   x: 0,
+          //   y: 410
+          // }
         ]
       }
     };
